@@ -1,0 +1,19 @@
+[
+    {
+        "key": "ctrl+n",
+        "command": "fileutils.newFileAtRoot"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "fileutils.newFolderAtRoot"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.clipboardCopyAction"
+    }
+]
