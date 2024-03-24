@@ -20,5 +20,15 @@
     {
         "key": "ctrl+shift+c",
         "command": "editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
     }
 ]
